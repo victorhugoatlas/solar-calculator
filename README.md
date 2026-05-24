@@ -1,16 +1,9 @@
-# Solar Calculator by VH V1.0
-Aplicação Desktop desenvolvida em Python para automação de cálculos e dimensionamentos de projetos de energia solar.
+# Solar Calculator ☀️
 
-## Problema Resolvido
-O projeto nasceu da necessidade de substituir planilhas e cálculos manuais durante visitas técnicas. A aplicação é rápida no fechamento de orçamentos, eliminando erros humanos em cálculos.
+**Solar Calculator** é uma ferramenta de apoio ao dimensionamento de sistemas de energia fotovoltaica. Desenvolvido em Python, este software permite calcular rapidamente a potência necessária (kWp) baseada no consumo mensal e estimar o valor final do projeto considerando custos de equipamento, instalação, projeto técnico e taxas operacionais.
 
 ## Funcionalidades
-- **Dimensionamento Bidirecional:** Calcula kWp a partir do consumo em kWh ou a geração estimada a partir do kWp inserido.
-- **Cálculo de Placas Automático:** Arredondamento inteligente com base na potência do módulo.
-- **Engenharia Financeira:** Lógica de cálculo em cascata.
-- **Feedback em Tempo Real:** Interface reativa que atualiza os valores em R$ instantaneamente conforme o input.
-- **Dark Mode:** Interface otimizada para campo utilizando Tkinter.
-
-## Tecnologias
-- Python 3.14
-- Tkinter GUI
+- **Dimensionamento Automático:** Calcula o consumo diário, a potência de pico (kWp) necessária e o número de placas solares com base na eficiência e radiação solar local.
+- **Orçamento Detalhado:** Calcula custos diretos (Equipamento, Instalação, Projeto).
+- **Taxas em Cascata:** Aplica percentuais automáticos para:
+- **Interface Intuitiva:** Interface gráfica moderna com Dark Mode utilizando `Tkinter`, com cálculos atualizados em tempo real conforme você digita.
